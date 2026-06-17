@@ -1,10 +1,12 @@
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 import joblib
 
-# Load model and columns
-model = joblib.load("../artifacts/model.pkl")
-feature_columns = joblib.load("../artifacts/feature_columns.pkl")
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+model = joblib.load(BASE_DIR / "artifacts" / "model.pkl")
+feature_columns = joblib.load(BASE_DIR / "artifacts" / "feature_columns.pkl")
 
 st.title("Predictive Maintenance System")
 
