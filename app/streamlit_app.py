@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load model and columns
-model = joblib.load("artifacts/model.pkl")
-feature_columns = joblib.load("artifacts/feature_columns.pkl")
+model = joblib.load("../artifacts/model.pkl")
+feature_columns = joblib.load("../artifacts/feature_columns.pkl")
 
 st.title("Predictive Maintenance System")
 

@@ -1,5 +1,9 @@
 .venv/
-artifacts/
 __pycache__/
+*.pyc
+
+artifacts/
+models/
+
 .ipynb_checkpoints/
 .vscode/
