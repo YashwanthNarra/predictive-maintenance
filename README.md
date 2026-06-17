@@ -63,7 +63,7 @@ predictive-maintenance/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/YashwanthNarra/predictive-maintenance>
 cd predictive-maintenance
 ```
 
